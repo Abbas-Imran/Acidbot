@@ -247,8 +247,43 @@ h1.main-heading span {
     color: #7289DA;
     font-family: 'DiscordFONT';
 }
+h2.heading {
+    font-size: 2.3rem;
+    color: white;
+    font-family: 'DiscordFONT';
+    padding-left: 1rem;
+}
+h2.heading span {
+    font-size: 1.3em;
+    color: white;
+    font-family: 'DiscordFONT';
+}
+.documentation h2.heading {
+    color: #5865F2;
+    font-size: 3.1rem;
+}
+.documentation h2.heading span {
+    color: #5865F2;
+}
 @media (max-width: 991px) {
     h1.main-heading {
         font-size: 3rem;
+    }
+    h2.heading {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .documentation h2.heading {
+        font-size: 52px;
+    }
+}
+@media (max-width: 575px) {
+    .documentation h2.heading {
+        font-size: 28px;
+    }
+}
+@media (max-width: 400px) {
+    h1.main-heading {
+        font-size: 2.5rem;
     }
 }
