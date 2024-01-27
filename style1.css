@@ -4,6 +4,16 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+@font-face {
+    font-family: DiscordFONT;
+    src: url("./uni-sans/Uni\ Sans\ Heavy.otf") format('opentype');
+  }
+  @font-face {
+    font-family: 'MyFont';
+    src: url('path/to/MyFont.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 .top-header {
   text-align: center;
   font-weight: 500;
@@ -102,6 +112,7 @@
 }
 .project-overView-wrapper .project-overView-item:hover {
     box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+        transform: scale(1.05);
 }
 .project-overView-wrapper .project-overView-item .burple-bg {
         background-color: #5865F2;
@@ -225,4 +236,19 @@ footer {
     border-radius: 5px;
     padding: 5px;
     text-decoration: none;
+}
+h1.main-heading {
+    font-size: 4.5rem;
+    color: #7289DA;
+    font-family: 'DiscordFONT';
+}
+h1.main-heading span {
+    font-size: 1.3em;
+    color: #7289DA;
+    font-family: 'DiscordFONT';
+}
+@media (max-width: 991px) {
+    h1.main-heading {
+        font-size: 3rem;
+    }
 }
