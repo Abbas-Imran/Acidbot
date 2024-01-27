@@ -64,7 +64,6 @@
   border-radius: 10px;
   max-width: 460px;
   width: 100%;
-  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -90,9 +89,19 @@
     justify-content: center;
     margin: auto;
 }
+.banner-description .invite-button p{
+    font-size: 20px;
+    font-family: 'DiscordFONT';
+    margin-bottom: 0px;
+}
+.banner-description .invite-button p span {
+    font-size: 1.2em;
+    font-family: 'DiscordFONT';
+}
 .banner-description .invite-button img {
     width: 100%;
 }
+
 @media (max-width: 1200px) {
 }
 .project-overView-wrapper {
@@ -285,5 +294,8 @@ h2.heading span {
 @media (max-width: 400px) {
     h1.main-heading {
         font-size: 2.5rem;
+    }
+    .banner-description .invite-button p{
+        font-size: 18px;
     }
 }
